@@ -1,0 +1,47 @@
+{
+
+    "name": "VCBot",
+
+    "description": "Just another Telegram VCBot, to stream songs in VC",
+
+    "keywords": [
+
+        "telegram",
+
+        "vc bot"
+
+    ],
+
+    "repository": "https://github.com/xditya/VCBot/",
+
+    "success_url": "https://t.me/BotzHub",
+
+    "stack": "container",
+
+    "env": {
+
+          "TOKEN": {
+
+            "description": "User ID of users who can use commands, split by space.",
+
+            "value": "",
+
+            "required": true
+
+        }
+
+    },
+
+    "formation": {
+
+        "worker": {
+
+            "quantity": 1,
+
+            "size": "free"
+
+        }
+
+    }
+
+}
